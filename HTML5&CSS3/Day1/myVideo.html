@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title> Video </title>
+    <style>
+        h1 {
+            color: plum;
+        }
+
+        #video-controls {
+            margin-top: 10px;
+        }
+
+        #progress {
+            width: 600px;
+        }
+
+        button,
+        input[type="range"] {
+            margin: 5px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Big Buck Bunny</h1>
+
+    <video id="myVideo" src="./BigBuckBunny_320x180.mp4" poster="./OIP.webp" width="700">
+    </video>
+
+    <div id="video-controls">
+        <input type="range" id="progress" value="0" min="0" max="100">
+        <span id="time"> 0:00 / 0:00 </span>
+        <br>
+        <br>
+
+        <button id="play">Play</button>
+        <button id="stop">Stop</button>
+        <button id="backward">
+            &lt;&lt;
+        </button>
+        <button id="forward">&gt;&gt;</button>
+
+        <br>
+        <input type="range" id="volume" value="1" min="0" max="1" step="0.1">
+        <button id="mute">Mute</button>
+        <br>
+        <label for="speed">Speed:</label>
+        <input type="range" id="speed" min="0.5" max="2" step="0.1" value="1">
+
+    </div>
+
+    <script>
+        const video = document.getElementById('myVideo');
+        const playBtn = document.getElementById('play');
+        const stopBtn = document.getElementById('stop');
+        const backwardBtn = document.getElementById('backward');
+        const forwardBtn = document.getElementById('forward');
+        const muteBtn = document.getElementById('mute');
+        const volumeBar = document.getElementById('volume');
+        const speedBar = document.getElementById('speed');
+        const progressBar = document.getElementById('progress');
+        const timeDisplay = document.getElementById('time');
+
+        playBtn.addEventListener('click', () => {
+            if (video.paused) {
+                video.play();
+                playBtn.textContent = 'Pause';
+            } else {
+                video.pause();
+                playBtn.textContent = 'Play';
+            }
+        });
+
+        stopBtn.addEventListener('click', () => {
+            video.pause();
+            video.currentTime = 0;
+            playBtn.textContent = 'Play';
+        });
+
+        backwardBtn.addEventListener('click', () => {
+            video.currentTime -= 10;
+        });
+
+        forwardBtn.addEventListener('click', () => {
+            video.currentTime += 10;
+        });
+
+        muteBtn.addEventListener('click', () => {
+            video.muted = !video.muted;
+            volumeBar.value = video.muted ? 0 : 1;
+            muteBtn.textContent = video.muted ? 'Unmute' : 'Mute';
+        });
+
+        speedBar.addEventListener('input', () => {
+            video.playbackRate = speedBar.value;
+        });
+
+        volumeBar.addEventListener('input', () => {
+            video.volume = volumeBar.value;
+            console.log(video.volume);
+        });
+        // 1 / 100
+        progressBar.addEventListener('input', () => {
+            console.log(progressBar.value)
+            video.currentTime = (progressBar.value / 100) * video.duration;
+        });
+
+        video.addEventListener('timeupdate', () => {
+            const progress = (video.currentTime / video.duration) * 100;
+            progressBar.value = progress;
+            const minutes = Math.floor(video.currentTime / 60);
+            const seconds = Math.floor(video.currentTime % 60);
+            const durationMinutes = Math.floor(video.duration / 60);
+            const durationSeconds = Math.floor(video.duration % 60);
+            timeDisplay.textContent = `${minutes}:${seconds} / ${durationMinutes}:${durationSeconds}`;
+        });
+
+
+
+    </script>
+
+</body>
+
+</html>

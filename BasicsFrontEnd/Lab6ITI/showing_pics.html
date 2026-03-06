@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slide Show</title>
+    <style>
+        input[type="button"] {
+            height: 45px;
+            width: 130px;
+            font-size: 16px;
+            border-radius: 8px;
+            background-color: #4a90e2;
+            color: white;
+            margin: 15px 8px;
+        }
+
+        input[type="button"]:hover {
+            background-color: #1f518b;
+            cursor: grabbing;
+        }
+
+        #frame {
+            width: 600px;
+            height: 500px;
+            border-width: 10px;
+            border-color: black;
+            box-shadow: 0 4px 15px rgb(112, 151, 223);
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Slide Show</h1>
+    <hr>
+    <img id="frame" src="./SlideShow/1.jpg">
+    <br>
+    <input type="button" value="Next" onclick="nextBtn()">
+    <input type="button" value="Previous" onclick="prevBtn()">
+    <input type="button" value="Slide Show" onclick="slideBtn()">
+    <input type="button" value="Stop" onclick="stopBtn()">
+
+    <script>
+        let frame = document.querySelector("#frame");
+        let index = 1;
+        function nextBtn() {
+            index++
+            if (index > 6) {
+                index = 6;
+                return;
+            }
+            frame.src = `./SlideShow/${index}.jpg`;
+        }
+
+        function prevBtn() {
+            index--
+            if (index < 1) {
+                index = 1;
+                return;
+            }
+            frame.src = `./SlideShow/${index}.jpg`;
+        }
+        let idInterval;
+        function slide() {
+            index = (index + 1) % 7;
+            if (index == 0)
+                index = 1;
+            frame.src = `./SlideShow/${index}.jpg`;
+        }
+        function slideBtn() {
+            idInterval = setInterval(slide, 1000);
+        }
+
+        function stopBtn() {
+            clearInterval(idInterval);
+        }
+
+
+    </script>
+
+</body>
+
+</html>

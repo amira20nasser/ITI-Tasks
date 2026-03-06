@@ -1,0 +1,43 @@
+#top {
+    background-color: rgb(61, 72, 125);
+    font-size: 27px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.sans-font {
+    font-family: sans-serif;
+}
+
+.diff-text {
+    font-size: 20px;
+}
+
+.red-text {
+    color: rgb(255, 89, 0);
+}
+
+.content-text {
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.main-image {
+    width: 800px;
+    height: 400px;
+}

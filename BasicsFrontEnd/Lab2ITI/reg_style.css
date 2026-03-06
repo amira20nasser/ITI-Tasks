@@ -1,0 +1,47 @@
+body {
+    background-color: aliceblue;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.center {
+    text-align: center;
+}
+
+.caption {
+    text-decoration: underline;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    border: 4px solid #ddd;
+}
+
+
+
+table td {
+    padding: 12px 15px;
+    text-align: left;
+    border: 4px solid #ddd;
+
+}
+
+.noneBorder {
+    border: none;
+
+}
+
+textarea {
+    resize: none;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    padding: 10px 30px;
+    margin: 0 15px;
+}

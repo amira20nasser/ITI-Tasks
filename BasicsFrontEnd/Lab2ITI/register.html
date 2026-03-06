@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="reg_style.css">
+</head>
+
+<body>
+    <form class="center" action="./login.html" method="Get">
+        <Label class="caption">
+            Registration Form
+        </Label>
+        <table>
+            <tr>
+                <td>
+                    <label for="firstname">
+                        First Name
+                    </label>
+                </td>
+                <td colspan="2">
+                    <input class="full-width" type="text" name="firstname" id="firstname"
+                        placeholder="Enter your first name">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="lastname">
+                        Last Name
+                    </label>
+                </td>
+                <td colspan="2">
+                    <input class="full-width" type="text" name="lastname" id="lastname"
+                        placeholder="Enter your last name">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="email">
+                        Email
+                    </label>
+                </td>
+                <td colspan="2">
+                    <input class="full-width" type="email" name="email" id="email" placeholder="Enter your email">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="password">
+                        password
+                    </label>
+                </td>
+                <td colspan="2">
+                    <input class="full-width" type="password" name="password" id="password"
+                        placeholder="Enter your password">
+                </td>
+            </tr>
+
+            <tr>
+                <td rowspan="2">
+                    Gender
+                </td>
+
+                <td colspan="2">
+
+                    <input type="radio" name="gener" id="female" value="female">
+                    <label for="female">Female</label>
+                </td>
+
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="radio" name="gener" id="male" value="male">
+                    <label for="male">Male</label>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    country
+                </td>
+                <td colspan="2">
+                    <select class="full-width" aria-placeholder="Select a country">
+                        <option value="" disabled selected hidden>Select your country</option>
+
+                        <optgroup label="Africa">
+                            <option value="egypt">
+                                Egypt
+                            </option>
+                            <option value="sudan">
+                                Sudan
+                            </option>
+                            <option value="libya">
+                                Libya
+                            </option>
+                            <option value="tunisia">
+                                Tunisia
+                            </option>
+                            <option value="moroco">
+                                Moroco
+                            </option>
+                        </optgroup>
+
+                        <optgroup label="Europe" disabled>
+                            <option value="italy">
+                                Italy
+                            </option>
+                            <option value="sweden">
+                                Sweden
+                            </option>
+                            <option value="spain">
+                                Spain
+                            </option>
+                        </optgroup>
+
+                        <optgroup label="Asia">
+                            <option value="palestine">
+                                Palestine
+                            </option>
+                            <option value="south-korea">
+                                South Korea
+                            </option>
+                            <option value="india">
+                                India
+                            </option>
+                        </optgroup>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Birthday
+                </td>
+                <td colspan="2">
+                    <input class="full-width" type="date" name="" id="">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3" class="center">
+                    Intrests
+                </td>
+            </tr>
+            <tr>
+                <td class="noneBorder">
+                    <input type="checkbox" name="hobby" value="Sports"> Sports
+                </td>
+                <td class="noneBorder">
+                    <input type="checkbox" name="hobby" value="Music"> Music
+                </td>
+                <td class="noneBorder"><input type="checkbox" name="hobby" value="Fashion"> Fashion</td>
+            </tr>
+            <tr>
+                <td class="noneBorder"><input type="checkbox" name="hobby" value="Reading"> Reading</td>
+                <td class="noneBorder"><input type="checkbox" name="hobby" value="Shopping"> Shopping</td>
+                <td class="noneBorder"><input type="checkbox" name="hobby" value="Movies"> Movies</td>
+            </tr>
+            <tr>
+                <td colspan="3" style="text-align: center;">
+                    Bio
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="3">
+                    <textarea name="" id="" cols="50" rows="10"></textarea>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="3" class="center">
+                    <input type="submit" value="Sign in">
+
+                    <input type="reset" value="reset">
+                </td>
+            </tr>
+        </table>
+    </form>
+
+</body>
+
+</html>

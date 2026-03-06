@@ -1,0 +1,104 @@
+# Binaries
+*.dll
+*.exe
+*.pdb
+*.exe.config
+*.mp4
+# Build outputs
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# NuGet
+packages/
+*.nupkg
+*.nuget.targets
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+*.cache
+
+# Test results
+TestResults/
+*.testsettings
+
+# ReSharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# Visual Studio Code
+.vscode/
+
+# Rider
+.idea/
+
+# MonoDevelop
+*.pidb
+*.userprefs
+
+# Unity
+Library/
+Temp/
+Obj/
+Build/
+Builds/
+Assets/AssetStoreTools*
+
+# ASP.NET Core
+appsettings.Development.json
+appsettings.Local.json
+
+# Entity Framework
+*.mdf
+*.ldf
+
+# Windows
+[Tt]humbs.db
+*.stackdump
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+
+# Rider
+.idea/
+
+# VS Code
+.vscode/
+
+# JetBrains Rider
+.idea/
+
+# Backup files
+*.bak
+*.backup

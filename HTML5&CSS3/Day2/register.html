@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <!-- <script src="cookie.js"></script> -->
+
+</head>
+
+<body>
+    Enter your name
+    <input type="text" name="name" id="name">
+    <br><br>
+    Enter your age
+    <input type="number" name="age" id="age">
+    <br> <br>
+    Select your gender
+    <br> <br>
+    <label for="male">
+        <input type="radio" name="gender" value="male" id="male">
+        <img src="1.jpg">
+    </label>
+    &MediumSpace;&MediumSpace;
+    &MediumSpace;&MediumSpace;
+    &MediumSpace;&MediumSpace;
+    &MediumSpace;&MediumSpace;
+    &MediumSpace;&MediumSpace;
+    &MediumSpace;&MediumSpace;
+    &MediumSpace;&MediumSpace;
+    <label for="female">
+        <input type="radio" name="gender" value="female" id="female">
+        <img src="2.jpg">
+    </label>
+    <br> <br>
+    Select your favorite color:
+    <select id="color">
+        <option value="red">red</option>
+        <option value="blue">blue</option>
+        <option value="green">green</option>
+        <option value="pink">pink</option>
+    </select>
+    <br><br>
+    <button onclick="submitData()">Register</button>
+
+
+    <script>
+        function submitData() {
+            try {
+                let name = document.getElementById("name").value;
+                let gender = document.querySelector('input[name="gender"]:checked').value;
+                let color = document.getElementById("color").value;
+
+                registerUser(name, gender, color);
+            } catch (e) {
+                alert(e.message);
+            }
+        }
+        function registerUser(name, gender, color) {
+
+            if (!name || !gender || !color) {
+                throw new Error("All registration fields are required.");
+            }
+            console.log(gender);
+            localStorage.setItem("name", name);
+            localStorage.setItem("gender", gender);
+            localStorage.setItem("color", color);
+            localStorage.setItem("visits", 0);
+
+            location.replace("profile.html");
+        }
+
+    </script>
+</body>
+
+</html>

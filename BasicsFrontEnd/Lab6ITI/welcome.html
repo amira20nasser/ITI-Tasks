@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background: #f4f6f9;
+        }
+
+        .container {
+            background: white;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            width: 440px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div id="img">
+        </div>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+
+    </div>
+    <script>
+        let query = document.location.search;
+        let params = query.split('&');
+        let name = params[0].split('=')[1];
+        let address = params[1].split('=')[1];
+        let gender = params[3].split('=')[1];
+        let email = params[4].split('=')[1].replace("%40", "@");
+        let mobile = params[6].split('=')[1];
+        let img = document.getElementById('img')
+        let path = gender == 'female' ? './girl.png' : './boy.png';
+        img.innerHTML = `
+        <img src=${path} height="300">
+        `;
+        let paragraphs = document.getElementsByTagName("p");
+        paragraphs[0].innerHTML = `<h2 style="color:darkblue;">Welcome ${name}</h2>`;
+        paragraphs[1].innerHTML = `<b>Address:</b> ${address}`;
+        paragraphs[2].innerHTML = `<b>Email:</b> ${email}`;
+        paragraphs[3].innerHTML = `<b>Gender:</b> ${gender}`;
+        paragraphs[4].innerHTML = `<b>Mobile:</b> ${mobile}`;
+
+        let engine = navigator.appVersion.split('/')[3].split(' ')[1];
+        if (!/chrome/.test(engine)) {
+            paragraphs[5].innerHTML = `<h3 style="color:red;">Caution ! <h4>prefer to use chrome browser instead of ${engine}</h4></h3>`;
+        }
+
+    </script>
+</body>
+
+</html>

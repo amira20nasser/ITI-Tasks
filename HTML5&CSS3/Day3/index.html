@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS 3</title>
+    <!-- <style>
+        @keyframes fadeOut {
+            from {
+                opacity: 1;
+            }
+
+            to {
+                opacity: 0.3;
+            }
+        }
+
+        img {
+            animation: fadeOut 3s forwards;
+        }
+
+
+
+        button {
+            margin-top: 30px;
+            width: 200px;
+            height: 30px;
+            border-radius: 12px;
+            font-weight: bold;
+            background-color: cyan;
+            border-color: blue;
+        }
+
+        button:hover {
+            background-color: pink;
+            border-color: blueviolet;
+            box-shadow: 0 0 8px 2px hotpink;
+        }
+
+
+        input {
+            border: 2px solid green;
+            background-color: #eff2ef;
+            outline: none;
+
+        }
+
+        input:focus {
+            border: 2px solid blueviolet;
+
+        }
+
+        input:focus:invalid {
+            border: 2px solid red;
+        }
+
+
+
+        input:valid {
+            border: 2px solid grey;
+        }
+
+        .card {
+            margin-top: 20px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            border-radius: 20px;
+            width: 200px;
+            height: 300px;
+            border: 4px solid red;
+        }
+
+        @font-face {
+            font-family: 'Algerian';
+            src: url('./Algerian.ttf') format('truetype');
+        }
+
+
+
+
+        .spade {
+            position: relative;
+            width: 35px;
+            height: 35px;
+            background: black;
+            border-radius: 50%;
+            top: 35%;
+            left: 45%;
+        }
+
+
+        .spade::before {
+            content: "";
+            position: absolute;
+            right: 25px;
+            width: 35px;
+            height: 35px;
+            background: black;
+            border-radius: 50%;
+        }
+
+
+        .spade1 {
+            content: "";
+            position: absolute;
+            left: 10.1%;
+            top: 101.4%;
+            width: 0;
+            height: 0;
+            border-left: 33px solid transparent;
+            border-right: 33px solid transparent;
+            border-bottom: 43px solid black;
+            border-radius: 12px;
+
+        }
+
+        .triDown {
+            content: "";
+            position: absolute;
+            left: 11.7%;
+            top: 107%;
+            width: 0;
+            height: 0;
+            border-left: 20px solid transparent;
+            border-right: 20px solid transparent;
+            border-bottom: 40px solid black;
+        }
+
+
+        #a1 {
+            font-family: 'Algerian';
+            font-size: 25px;
+            position: relative;
+            top: -2%;
+            left: 4%;
+        }
+
+        #a2 {
+            font-family: 'Algerian';
+            font-size: 25px;
+
+            position: relative;
+            top: 90%;
+            left: 75%;
+        }
+    </style> -->
+
+
+    <style>
+        .circle {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            background: crimson;
+            position: relative;
+        }
+
+        .circle::after {
+            content: "";
+            position: absolute;
+            top: 30%;
+            right: 0;
+            width: 0;
+            height: 0;
+            border-left: 20px solid transparent;
+            border-right: 40px solid white;
+            border-bottom: 20px solid transparent;
+            border-top: 20px solid transparent;
+            opacity: 0;
+            animation: showTriangle 3s alternate infinite;
+        }
+
+        @keyframes showTriangle {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="circle" id="d">
+
+    </div>
+
+</body>
+
+</html>
+
+
+<!-- 
+
+
+
+  <div>
+        <img src="https://th.bing.com/th/id/R.58471adc7e98088e1d7c3730892e8a86?rik=5WJZGjvcxve0bg&pid=ImgRaw&r=0"
+            width="200px" alt="">
+    </div>
+    <button type="button">Hover to Blink</button>
+    <div id="pacman">
+        <div id="heart"></div>
+        <div id="triangle"></div>
+        <div id="circle"></div>
+    </div>
+
+    <div>
+        <h2>Change Email Address</h2>
+
+        <form action="#" method="get">
+            <input type="text" placeholder="Username" name="username" required>
+            <br>
+            <span class="e1">
+                The required user name may only be a series of alphabetical characters.
+            </span>
+            <br>
+            <input type="email" placeholder="Email" name="email" required>
+            <br>
+            <span class="e2">
+                The required email address may not include any special characters other than '@' sign.
+            </span>
+            <br>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+
+    <div class="card">
+        <span id="a1"> A</span>
+        <span id="a2"> A</span>
+        <div class="spade">
+        </div>
+        <div class="spade1">
+        </div>
+        <div class="triDown"></div>
+    </div>
+
+
+-->

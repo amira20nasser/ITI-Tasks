@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marbels</title>
+    <style>
+        img {
+            margin: 0 10px;
+        }
+
+        .container {
+            background: rgb(239, 125, 125);
+            padding: 20px;
+            border-radius: 30px;
+            box-shadow: 0 4px 15px black;
+            border-color: black;
+            border-width: 2px;
+            border-style: solid;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container" onmouseover="stopBall()" onmouseout="resumeBall()">
+        <img src="./marbels/marble1.jpg">
+        <img src="./marbels/marble1.jpg">
+        <img src="./marbels/marble1.jpg">
+        <img src="./marbels/marble1.jpg">
+        <img src="./marbels/marble1.jpg">
+    </div>
+
+
+    <script>
+        let images = document.getElementsByTagName("img");
+        const length = images.length;
+        let index = 0;
+        function movingBall() {
+
+            images[index].src = "./marbels/marble3.jpg";
+            if (index == 0) {
+                images[length - 1].src = "./marbels/marble1.jpg";
+            } else {
+                images[(index - 1) % length].src = "./marbels/marble1.jpg";
+            }
+            index = (index + 1) % length;
+        }
+
+        let id = setInterval(movingBall, 900);
+        function stopBall() {
+            clearInterval(id);
+        }
+        function resumeBall() {
+            id = setInterval(movingBall, 900);
+        }
+    </script>
+
+</body>
+
+</html>

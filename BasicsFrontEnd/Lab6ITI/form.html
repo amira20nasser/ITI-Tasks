@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form HTML</title>
+
+
+    <style>
+        body {
+            background: #f4f6f9;
+        }
+
+        .container {
+            background: white;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            width: 440px;
+        }
+
+        input[type='text'],
+        input[type='email'],
+        input[type='password'],
+        input[type='tel'] {
+            width: 400px;
+            height: 30px;
+            margin-bottom: 15px;
+            font-size: 18px;
+            padding-right: 10px;
+            border-radius: 8px;
+            border: 1px solid #ccc;
+        }
+
+        input[type="submit"] {
+            height: 40px;
+            width: 100px;
+            font-size: 16px;
+            border-radius: 8px;
+            background-color: #478bd9;
+            color: white;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #357abd;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <form action="./welcome.html" method="get">
+
+            <label>Name:</label><br>
+            <input type="text" name="name" required><br><br>
+
+            <label>Address:</label><br>
+            <input type="text" name="address" required><br><br>
+
+            <label>Job Title:</label><br>
+            <input type="text" name="address" required><br><br>
+
+            <label>Gender:</label><br>
+            <input type="radio" name="gender" value="male" required> Male
+            <input type="radio" name="gender" value="female"> Female
+            <br><br>
+
+            <label>Email:</label><br>
+            <input type="email" name="email" required><br><br>
+
+            <label>Password:</label><br>
+            <input type="password" name="password" required><br><br>
+
+
+            <label>Mobile:</label><br>
+            <input type="tel" name="mobile" required><br><br>
+
+            <input type="submit" value="Submit">
+
+        </form>
+
+    </div>
+
+</body>
+
+</html>

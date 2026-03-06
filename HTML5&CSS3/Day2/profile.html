@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <script src="cookie.js"></script> -->
+
+</head>
+
+<body onload="loadProfile()">
+    <img id="profilePic" height="270">
+    <span id="message"></span>
+
+    <script>
+        function loadProfile() {
+
+            if (!localStorage.getItem("name")) {
+                location.replace("register.html");
+                return;
+            }
+
+            let name = localStorage.getItem("name");
+            let gender = localStorage.getItem("gender");
+            let color = localStorage.getItem("color");
+            console.log(name);
+            console.log(color);
+            let visits = parseInt(localStorage.getItem("visits")) || 0;
+            console.log(visits);
+            visits++;
+            localStorage.setItem("visits", visits);
+
+            let message = document.getElementById("message");
+            let image = document.getElementById("profilePic");
+
+            message.innerHTML = `Welcome 
+            <span style="color:${color}; font-size:22px; font-weight:bold;"> 
+                ${name} 
+            </span> 
+            Number of visits:  
+            <span style="color:${color}; font-size:22px; font-weight:bold;">
+                ${visits}
+            </span>`;
+
+            if (gender === "male") {
+                image.src = "1.jpg";
+            } else {
+                image.src = "2.jpg";
+            }
+        }
+
+    </script>
+</body>
+
+</html>
