@@ -95,7 +95,12 @@ USE Company_SD;
 GO
 create Procedure UpdateEmployeeInProject ( @OldEmp int, @NewEmp int,@ProjNo int)
 AS
-Begin
+BEGIN 
+    IF NOT EXISTS ( SELECT * FROM Works_for
+                WHERE  ESSn = @NewEmp)
+        PRINT 'EROR'
+ELSE
+BEGIN
     Update Works_for
     SET ESSn = @NewEmp
     Where ESSn = @OldEmp
@@ -226,8 +231,8 @@ WHERE m.SSN = e.Superssn AND m.SSN = 10102
 --Q6
 Update Departments
 SET Dname = 'Sales'
-WHERE MGRSSN = ( 
-SELECT e.Superssn FROM [Human Resource].Employee e 
+WHERE Dnum = ( 
+SELECT e.Dno FROM [Human Resource].Employee e 
 WHERE e.Fname = 'James')
 
 -- Q7
@@ -239,9 +244,9 @@ WHERE e.SSN = (SELECT Pnumber FROM Project
   AND e.Dno = 
   (SELECT Dnum FROM Departments
   WHERE Dname = 'Sales');
--- Q8
+-- Q8 REPEAT
 DELETE FROM Works_for
 WHERE ESSn IN (
-    SELECT ESSn FROM Departments 
-    WHERE Dlocation = 'KW'
+    SELECT ESSn FROM Departments , Employee e
+    WHERE e. AND Dlocation = 'KW'
 );
