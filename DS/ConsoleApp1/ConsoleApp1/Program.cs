@@ -16,11 +16,7 @@
             l.AddLast(e3); l.AddLast(e3); l.AddLast(e3); l.AddLast(e3);
             //l.RemoveFirst();
             //l.RemoveLast();
-            l.DeleteAt(0);
-            Console.WriteLine("Number of Data = "+l.Count);
-            Console.WriteLine();
-            l.Display();
-
+            
             //5.	Use Built in LinkedList & explore it is Functionalities 
             Console.WriteLine("=======================");
             Console.WriteLine("Built In");
@@ -29,17 +25,12 @@
             es.AddLast(e3);
             es.AddFirst(e2);
             es.AddFirst(e1);
-          //  Console.WriteLine(es.First.Value);
-            //Console.WriteLine(es.Last.Value);
-            LinkedListNode<Employee> node = es.Find(e1);
-            es.AddAfter(node, e3);
-            es.AddBefore(node, e3);
-            var current = es.First;
-            while (current != null)
-            {
-                Console.WriteLine(current.Value);
-                current = current.Next;
-            }
+
+            StackDoubleLinkedList<Employee> s = new StackDoubleLinkedList<Employee>();
+            s.Push(e1);
+            s.Push(e2);
+            s.Pop();
+            s.Display();
         }
     }
 }

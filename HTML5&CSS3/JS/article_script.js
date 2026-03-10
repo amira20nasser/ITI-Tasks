@@ -27,3 +27,20 @@ let myPromise = new Promise((res, rej) => {
         document.body.append(div);
     }
 });
+
+fetch("./articles.json").then((response) => {
+    return response.json();
+}).then((data) => {
+    // Process the fetched data
+    for (let i = 0; i < data.length; i++) {
+        let div = document.createElement("div");
+        let h3 = document.createElement("h3");
+        let p = document.createElement("p");
+        let h3Text = document.createTextNode(data[i].title);
+        let pText = document.createTextNode(data[i].description);
+        p.append(pText);
+        h3.append(h3Text);
+        div.append(h3, p);
+        document.body.append(div);
+    }
+});

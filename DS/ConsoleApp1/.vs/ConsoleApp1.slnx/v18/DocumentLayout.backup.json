@@ -7,8 +7,12 @@
       "RelativeMoniker": "D:0:0:{5B68813F-23C2-8DF2-1B1F-9033A2893F62}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5B68813F-23C2-8DF2-1B1F-9033A2893F62}|ConsoleApp1\\ConsoleApp1.csproj|d:\\iti\\ds\\consoleapp1\\consoleapp1\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B68813F-23C2-8DF2-1B1F-9033A2893F62}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5B68813F-23C2-8DF2-1B1F-9033A2893F62}|ConsoleApp1\\ConsoleApp1.csproj|d:\\iti\\ds\\consoleapp1\\consoleapp1\\queuedoublelinkedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B68813F-23C2-8DF2-1B1F-9033A2893F62}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\queuedoublelinkedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B68813F-23C2-8DF2-1B1F-9033A2893F62}|ConsoleApp1\\ConsoleApp1.csproj|d:\\iti\\ds\\consoleapp1\\consoleapp1\\stackdoublelinkedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B68813F-23C2-8DF2-1B1F-9033A2893F62}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\stackdoublelinkedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5B68813F-23C2-8DF2-1B1F-9033A2893F62}|ConsoleApp1\\ConsoleApp1.csproj|d:\\iti\\ds\\consoleapp1\\consoleapp1\\doublelinkedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -17,6 +21,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{5B68813F-23C2-8DF2-1B1F-9033A2893F62}|ConsoleApp1\\ConsoleApp1.csproj|d:\\iti\\ds\\consoleapp1\\consoleapp1\\node.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5B68813F-23C2-8DF2-1B1F-9033A2893F62}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\node.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B68813F-23C2-8DF2-1B1F-9033A2893F62}|ConsoleApp1\\ConsoleApp1.csproj|d:\\iti\\ds\\consoleapp1\\consoleapp1\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B68813F-23C2-8DF2-1B1F-9033A2893F62}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,24 +34,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DoubleLinkedList.cs",
-              "DocumentMoniker": "D:\\ITI\\DS\\ConsoleApp1\\ConsoleApp1\\DoubleLinkedList.cs",
-              "RelativeDocumentMoniker": "ConsoleApp1\\DoubleLinkedList.cs",
-              "ToolTip": "D:\\ITI\\DS\\ConsoleApp1\\ConsoleApp1\\DoubleLinkedList.cs*",
-              "RelativeToolTip": "ConsoleApp1\\DoubleLinkedList.cs*",
-              "ViewState": "AgIAAKkAAAAAAAAAAAAmwMQAAAAeAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "QueueDoubleLinkedList.cs",
+              "DocumentMoniker": "D:\\ITI\\DS\\ConsoleApp1\\ConsoleApp1\\QueueDoubleLinkedList.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\QueueDoubleLinkedList.cs",
+              "ToolTip": "D:\\ITI\\DS\\ConsoleApp1\\ConsoleApp1\\QueueDoubleLinkedList.cs",
+              "RelativeToolTip": "ConsoleApp1\\QueueDoubleLinkedList.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-08T22:57:46.679Z",
+              "WhenOpened": "2026-03-10T19:23:18.587Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "DoubleLinkedList.cs",
+              "DocumentMoniker": "D:\\ITI\\DS\\ConsoleApp1\\ConsoleApp1\\DoubleLinkedList.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\DoubleLinkedList.cs",
+              "ToolTip": "D:\\ITI\\DS\\ConsoleApp1\\ConsoleApp1\\DoubleLinkedList.cs",
+              "RelativeToolTip": "ConsoleApp1\\DoubleLinkedList.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAQwC0AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-10T19:20:01.973Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StackDoubleLinkedList.cs",
+              "DocumentMoniker": "D:\\ITI\\DS\\ConsoleApp1\\ConsoleApp1\\StackDoubleLinkedList.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\StackDoubleLinkedList.cs",
+              "ToolTip": "D:\\ITI\\DS\\ConsoleApp1\\ConsoleApp1\\StackDoubleLinkedList.cs",
+              "RelativeToolTip": "ConsoleApp1\\StackDoubleLinkedList.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-10T19:15:15.586Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Node.cs",
               "DocumentMoniker": "D:\\ITI\\DS\\ConsoleApp1\\ConsoleApp1\\Node.cs",
               "RelativeDocumentMoniker": "ConsoleApp1\\Node.cs",
@@ -56,7 +90,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "Employee.cs",
               "DocumentMoniker": "D:\\ITI\\DS\\ConsoleApp1\\ConsoleApp1\\Employee.cs",
               "RelativeDocumentMoniker": "ConsoleApp1\\Employee.cs",
@@ -64,8 +98,7 @@
               "RelativeToolTip": "ConsoleApp1\\Employee.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAwwAkAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-08T22:40:58.475Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-08T22:40:58.475Z"
             },
             {
               "$type": "Document",
@@ -75,7 +108,7 @@
               "RelativeDocumentMoniker": "ConsoleApp1\\Program.cs",
               "ToolTip": "D:\\ITI\\DS\\ConsoleApp1\\ConsoleApp1\\Program.cs",
               "RelativeToolTip": "ConsoleApp1\\Program.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAywBcAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAwB8AAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-08T22:39:49.299Z",
               "EditorCaption": ""
