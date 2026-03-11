@@ -8,12 +8,16 @@ namespace ConsoleApp1
     {
         public void Push(T value)
         {
-            AddFirst(value);
+            AddLast(value);
         }
 
         public void Pop()
         {
             RemoveFirst();
+        }
+        public Node<T> peak()
+        {
+            return Front();
         }
     }
 }

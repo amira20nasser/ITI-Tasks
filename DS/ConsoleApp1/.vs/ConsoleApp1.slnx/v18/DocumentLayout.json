@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "D:\\ITI\\DS\\ConsoleApp1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5B68813F-23C2-8DF2-1B1F-9033A2893F62}|ConsoleApp1\\ConsoleApp1.csproj|d:\\iti\\ds\\consoleapp1\\consoleapp1\\doublelinkedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B68813F-23C2-8DF2-1B1F-9033A2893F62}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\doublelinkedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5B68813F-23C2-8DF2-1B1F-9033A2893F62}|ConsoleApp1\\ConsoleApp1.csproj|d:\\iti\\ds\\consoleapp1\\consoleapp1\\queuedoublelinkedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B68813F-23C2-8DF2-1B1F-9033A2893F62}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\queuedoublelinkedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5B68813F-23C2-8DF2-1B1F-9033A2893F62}|ConsoleApp1\\ConsoleApp1.csproj|d:\\iti\\ds\\consoleapp1\\consoleapp1\\stackdoublelinkedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5B68813F-23C2-8DF2-1B1F-9033A2893F62}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\stackdoublelinkedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5B68813F-23C2-8DF2-1B1F-9033A2893F62}|ConsoleApp1\\ConsoleApp1.csproj|d:\\iti\\ds\\consoleapp1\\consoleapp1\\queuedoublelinkedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B68813F-23C2-8DF2-1B1F-9033A2893F62}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\queuedoublelinkedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5B68813F-23C2-8DF2-1B1F-9033A2893F62}|ConsoleApp1\\ConsoleApp1.csproj|d:\\iti\\ds\\consoleapp1\\consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5B68813F-23C2-8DF2-1B1F-9033A2893F62}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B68813F-23C2-8DF2-1B1F-9033A2893F62}|ConsoleApp1\\ConsoleApp1.csproj|d:\\iti\\ds\\consoleapp1\\consoleapp1\\doublelinkedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B68813F-23C2-8DF2-1B1F-9033A2893F62}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\doublelinkedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5B68813F-23C2-8DF2-1B1F-9033A2893F62}|ConsoleApp1\\ConsoleApp1.csproj|d:\\iti\\ds\\consoleapp1\\consoleapp1\\node.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,32 +34,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "QueueDoubleLinkedList.cs",
               "DocumentMoniker": "D:\\ITI\\DS\\ConsoleApp1\\ConsoleApp1\\QueueDoubleLinkedList.cs",
               "RelativeDocumentMoniker": "ConsoleApp1\\QueueDoubleLinkedList.cs",
               "ToolTip": "D:\\ITI\\DS\\ConsoleApp1\\ConsoleApp1\\QueueDoubleLinkedList.cs",
               "RelativeToolTip": "ConsoleApp1\\QueueDoubleLinkedList.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-10T19:23:18.587Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "DoubleLinkedList.cs",
-              "DocumentMoniker": "D:\\ITI\\DS\\ConsoleApp1\\ConsoleApp1\\DoubleLinkedList.cs",
-              "RelativeDocumentMoniker": "ConsoleApp1\\DoubleLinkedList.cs",
-              "ToolTip": "D:\\ITI\\DS\\ConsoleApp1\\ConsoleApp1\\DoubleLinkedList.cs",
-              "RelativeToolTip": "ConsoleApp1\\DoubleLinkedList.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAIAwwDAAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-10T19:20:01.973Z",
               "EditorCaption": ""
             },
             {
@@ -70,9 +57,22 @@
               "RelativeDocumentMoniker": "ConsoleApp1\\StackDoubleLinkedList.cs",
               "ToolTip": "D:\\ITI\\DS\\ConsoleApp1\\ConsoleApp1\\StackDoubleLinkedList.cs",
               "RelativeToolTip": "ConsoleApp1\\StackDoubleLinkedList.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-10T19:15:15.586Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DoubleLinkedList.cs",
+              "DocumentMoniker": "D:\\ITI\\DS\\ConsoleApp1\\ConsoleApp1\\DoubleLinkedList.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\DoubleLinkedList.cs",
+              "ToolTip": "D:\\ITI\\DS\\ConsoleApp1\\ConsoleApp1\\DoubleLinkedList.cs",
+              "RelativeToolTip": "ConsoleApp1\\DoubleLinkedList.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAADwvxUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-10T19:20:01.973Z",
               "EditorCaption": ""
             },
             {
@@ -102,13 +102,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\ITI\\DS\\ConsoleApp1\\ConsoleApp1\\Program.cs",
               "RelativeDocumentMoniker": "ConsoleApp1\\Program.cs",
               "ToolTip": "D:\\ITI\\DS\\ConsoleApp1\\ConsoleApp1\\Program.cs",
               "RelativeToolTip": "ConsoleApp1\\Program.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAAwB8AAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAADwvy4AAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-08T22:39:49.299Z",
               "EditorCaption": ""

@@ -29,8 +29,22 @@
             StackDoubleLinkedList<Employee> s = new StackDoubleLinkedList<Employee>();
             s.Push(e1);
             s.Push(e2);
+            s.Push(e3);
+
             s.Pop();
+            s.Pop();
+
             s.Display();
+
+
+
+            QueueDoubleLinkedList<Employee> q = new QueueDoubleLinkedList<Employee>();
+            q.Push(e1);
+            q.Push(e2);
+            q.Push(e3);
+
+            q.Pop();
+            q.Display();
         }
     }
 }

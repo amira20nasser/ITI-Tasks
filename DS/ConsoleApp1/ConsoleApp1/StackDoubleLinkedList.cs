@@ -16,5 +16,9 @@ namespace ConsoleApp1
         {
             RemoveLast();
         }
+        public Node<T> peak()
+        {
+            return Back();
+        }
     }
 }

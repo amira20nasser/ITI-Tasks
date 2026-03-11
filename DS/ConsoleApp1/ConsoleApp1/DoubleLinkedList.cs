@@ -14,7 +14,26 @@ namespace ConsoleApp1
         {
             count = 0;
         }
-
+        public Node<T> Front()
+        {
+            if (head == null)
+            {
+                return null;
+            }
+            return head;
+        }
+        public Node<T> Back()
+        {
+            if (tail == null)
+            {
+                return null;
+            }
+            return tail;
+        }
+       public bool IsEmpty()
+       {
+            return count == 0;
+       }
         public int Count { get { return count; } }
         public void AddFirst(T data)
         { /// O(1)
