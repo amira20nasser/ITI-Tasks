@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Users & Posts UI</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body class="bg-gray-100  overflow-hidden overflow-y-auto">
+
+    <div class="max-w-6xl mx-auto h-full p-4 md:p-6">
+
+        <div class="h-full flex flex-col md:grid md:grid-cols-3 gap-6">
+
+            <!-- users -->
+            <div class="h-[70vh]">
+                <div class="bg-white rounded-2xl shadow flex flex-col h-[100%] md:h-full">
+
+                    <!-- Header -->
+                    <div class="p-4 border-b shrink-0">
+                        <h2 class="text-xl font-semibold">Users</h2>
+                    </div>
+
+                    <div id="users" class="flex-1 overflow-y-auto p-2 space-y-2">
+
+                        <!-- UserCard -->
+                        <div
+                            class="user-card flex items-center gap-4 p-3 rounded-xl hover:bg-gray-100 cursor-pointer hidden">
+                            <div
+                                class="user-id w-10 h-10 flex items-center justify-center rounded-full bg-blue-500 text-white font-bold">
+                            </div>
+                            <div>
+                                <p class="username font-medium text-gray-800"></p>
+                                <p class="user-email text-sm text-gray-500"></p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- Posts -->
+            <div class="bg-white rounded-2xl shadow flex flex-col md:col-span-2 h-[100%]">
+
+                <!-- Header -->
+                <div class="p-6 border-b shrink-0">
+                    <h2 class="text-xl font-semibold">Posts</h2>
+                </div>
+
+
+                <!-- Posts List-->
+                <div id="posts" class="flex-1 p-6 space-y-4 ">
+                    <!-- Empty state -->
+                    <div id="empty" class="flex items-center justify-center h-full text-gray-400"> Select a user to see
+                        posts </div>
+
+                    <div class="post-card p-4 border rounded-xl hidden">
+                        <h3 class="post-title font-semibold text-gray-800"></h3>
+                        <p class="post-description text-sm text-gray-600"></p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
