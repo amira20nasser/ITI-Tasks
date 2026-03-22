@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\ITI\\DS\\Lab2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F319D487-73D8-7112-8F5F-41EC036A539B}|Lab2\\Lab2.csproj|d:\\iti\\ds\\lab2\\lab2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F319D487-73D8-7112-8F5F-41EC036A539B}|Lab2\\Lab2.csproj|solutionrelative:lab2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F319D487-73D8-7112-8F5F-41EC036A539B}|Lab2\\Lab2.csproj|d:\\iti\\ds\\lab2\\lab2\\queuearray.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F319D487-73D8-7112-8F5F-41EC036A539B}|Lab2\\Lab2.csproj|solutionrelative:lab2\\queuearray.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F319D487-73D8-7112-8F5F-41EC036A539B}|Lab2\\Lab2.csproj|d:\\iti\\ds\\lab2\\lab2\\queuewithstack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F319D487-73D8-7112-8F5F-41EC036A539B}|Lab2\\Lab2.csproj|solutionrelative:lab2\\queuewithstack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F319D487-73D8-7112-8F5F-41EC036A539B}|Lab2\\Lab2.csproj|d:\\iti\\ds\\lab2\\lab2\\stackarray.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F319D487-73D8-7112-8F5F-41EC036A539B}|Lab2\\Lab2.csproj|solutionrelative:lab2\\stackarray.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "QueueWithStack.cs",
+              "DocumentMoniker": "D:\\ITI\\DS\\Lab2\\Lab2\\QueueWithStack.cs",
+              "RelativeDocumentMoniker": "Lab2\\QueueWithStack.cs",
+              "ToolTip": "D:\\ITI\\DS\\Lab2\\Lab2\\QueueWithStack.cs",
+              "RelativeToolTip": "Lab2\\QueueWithStack.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAQwCcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T11:48:09.588Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "QueueArray.cs",
+              "DocumentMoniker": "D:\\ITI\\DS\\Lab2\\Lab2\\QueueArray.cs",
+              "RelativeDocumentMoniker": "Lab2\\QueueArray.cs",
+              "ToolTip": "D:\\ITI\\DS\\Lab2\\Lab2\\QueueArray.cs",
+              "RelativeToolTip": "Lab2\\QueueArray.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAUwDEAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T11:15:45.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StackArray.cs",
+              "DocumentMoniker": "D:\\ITI\\DS\\Lab2\\Lab2\\StackArray.cs",
+              "RelativeDocumentMoniker": "Lab2\\StackArray.cs",
+              "ToolTip": "D:\\ITI\\DS\\Lab2\\Lab2\\StackArray.cs",
+              "RelativeToolTip": "Lab2\\StackArray.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAwCMAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T11:03:12.977Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\ITI\\DS\\Lab2\\Lab2\\Program.cs",
+              "RelativeDocumentMoniker": "Lab2\\Program.cs",
+              "ToolTip": "D:\\ITI\\DS\\Lab2\\Lab2\\Program.cs",
+              "RelativeToolTip": "Lab2\\Program.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAQwE4AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T11:01:44.719Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

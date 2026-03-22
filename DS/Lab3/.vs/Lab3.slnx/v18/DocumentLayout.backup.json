@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\ITI\\DS\\Lab3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BD6B9E9E-3E19-1E62-5DC0-58D981F02584}|Lab3\\Lab3.csproj|d:\\iti\\ds\\lab3\\lab3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD6B9E9E-3E19-1E62-5DC0-58D981F02584}|Lab3\\Lab3.csproj|solutionrelative:lab3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD6B9E9E-3E19-1E62-5DC0-58D981F02584}|Lab3\\Lab3.csproj|d:\\iti\\ds\\lab3\\lab3\\doublelinkedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD6B9E9E-3E19-1E62-5DC0-58D981F02584}|Lab3\\Lab3.csproj|solutionrelative:lab3\\doublelinkedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD6B9E9E-3E19-1E62-5DC0-58D981F02584}|Lab3\\Lab3.csproj|d:\\iti\\ds\\lab3\\lab3\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD6B9E9E-3E19-1E62-5DC0-58D981F02584}|Lab3\\Lab3.csproj|solutionrelative:lab3\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD6B9E9E-3E19-1E62-5DC0-58D981F02584}|Lab3\\Lab3.csproj|d:\\iti\\ds\\lab3\\lab3\\sortalgorithmscs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD6B9E9E-3E19-1E62-5DC0-58D981F02584}|Lab3\\Lab3.csproj|solutionrelative:lab3\\sortalgorithmscs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DoubleLinkedList.cs",
+              "DocumentMoniker": "D:\\ITI\\DS\\Lab3\\Lab3\\DoubleLinkedList.cs",
+              "RelativeDocumentMoniker": "Lab3\\DoubleLinkedList.cs",
+              "ToolTip": "D:\\ITI\\DS\\Lab3\\Lab3\\DoubleLinkedList.cs",
+              "RelativeToolTip": "Lab3\\DoubleLinkedList.cs",
+              "ViewState": "AgIAAHIAAAAAAAAAAAAmwAoAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T13:22:59.341Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SortAlgorithmscs.cs",
+              "DocumentMoniker": "D:\\ITI\\DS\\Lab3\\Lab3\\SortAlgorithmscs.cs",
+              "RelativeDocumentMoniker": "Lab3\\SortAlgorithmscs.cs",
+              "ToolTip": "D:\\ITI\\DS\\Lab3\\Lab3\\SortAlgorithmscs.cs",
+              "RelativeToolTip": "Lab3\\SortAlgorithmscs.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T13:02:47.126Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "D:\\ITI\\DS\\Lab3\\Lab3\\Employee.cs",
+              "RelativeDocumentMoniker": "Lab3\\Employee.cs",
+              "ToolTip": "D:\\ITI\\DS\\Lab3\\Lab3\\Employee.cs",
+              "RelativeToolTip": "Lab3\\Employee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T12:33:09.507Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\ITI\\DS\\Lab3\\Lab3\\Program.cs",
+              "RelativeDocumentMoniker": "Lab3\\Program.cs",
+              "ToolTip": "D:\\ITI\\DS\\Lab3\\Lab3\\Program.cs",
+              "RelativeToolTip": "Lab3\\Program.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAIwDUAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T12:31:50.966Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
