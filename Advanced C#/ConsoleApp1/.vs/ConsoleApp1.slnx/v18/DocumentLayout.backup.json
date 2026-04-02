@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\ITI\\Advanced C#\\ConsoleApp1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{90AEEB5B-AB7A-467C-8272-31947959A3F6}|ConsoleApp1\\ConsoleApp1.csproj|d:\\iti\\advanced c#\\consoleapp1\\consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90AEEB5B-AB7A-467C-8272-31947959A3F6}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90AEEB5B-AB7A-467C-8272-31947959A3F6}|ConsoleApp1\\ConsoleApp1.csproj|d:\\iti\\advanced c#\\consoleapp1\\consoleapp1\\phonebook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90AEEB5B-AB7A-467C-8272-31947959A3F6}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\phonebook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90AEEB5B-AB7A-467C-8272-31947959A3F6}|ConsoleApp1\\ConsoleApp1.csproj|d:\\iti\\advanced c#\\consoleapp1\\consoleapp1\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90AEEB5B-AB7A-467C-8272-31947959A3F6}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90AEEB5B-AB7A-467C-8272-31947959A3F6}|ConsoleApp1\\ConsoleApp1.csproj|d:\\iti\\advanced c#\\consoleapp1\\consoleapp1\\shapes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90AEEB5B-AB7A-467C-8272-31947959A3F6}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\shapes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90AEEB5B-AB7A-467C-8272-31947959A3F6}|ConsoleApp1\\ConsoleApp1.csproj|d:\\iti\\advanced c#\\consoleapp1\\consoleapp1\\ishape.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90AEEB5B-AB7A-467C-8272-31947959A3F6}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\ishape.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90AEEB5B-AB7A-467C-8272-31947959A3F6}|ConsoleApp1\\ConsoleApp1.csproj|d:\\iti\\advanced c#\\consoleapp1\\consoleapp1\\icolor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90AEEB5B-AB7A-467C-8272-31947959A3F6}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\icolor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Shapes.cs",
+              "DocumentMoniker": "D:\\ITI\\Advanced C#\\ConsoleApp1\\ConsoleApp1\\Shapes.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\Shapes.cs",
+              "ToolTip": "D:\\ITI\\Advanced C#\\ConsoleApp1\\ConsoleApp1\\Shapes.cs",
+              "RelativeToolTip": "ConsoleApp1\\Shapes.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAkwCIAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-02T11:46:58.59Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IColor.cs",
+              "DocumentMoniker": "D:\\ITI\\Advanced C#\\ConsoleApp1\\ConsoleApp1\\IColor.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\IColor.cs",
+              "ToolTip": "D:\\ITI\\Advanced C#\\ConsoleApp1\\ConsoleApp1\\IColor.cs",
+              "RelativeToolTip": "ConsoleApp1\\IColor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-02T11:45:55.686Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IShape.cs",
+              "DocumentMoniker": "D:\\ITI\\Advanced C#\\ConsoleApp1\\ConsoleApp1\\IShape.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\IShape.cs",
+              "ToolTip": "D:\\ITI\\Advanced C#\\ConsoleApp1\\ConsoleApp1\\IShape.cs",
+              "RelativeToolTip": "ConsoleApp1\\IShape.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-02T11:44:21.343Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Person.cs",
+              "DocumentMoniker": "D:\\ITI\\Advanced C#\\ConsoleApp1\\ConsoleApp1\\Person.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\Person.cs",
+              "ToolTip": "D:\\ITI\\Advanced C#\\ConsoleApp1\\ConsoleApp1\\Person.cs",
+              "RelativeToolTip": "ConsoleApp1\\Person.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAADwvxcAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-02T11:30:37.364Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PhoneBook.cs",
+              "DocumentMoniker": "D:\\ITI\\Advanced C#\\ConsoleApp1\\ConsoleApp1\\PhoneBook.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\PhoneBook.cs",
+              "ToolTip": "D:\\ITI\\Advanced C#\\ConsoleApp1\\ConsoleApp1\\PhoneBook.cs",
+              "RelativeToolTip": "ConsoleApp1\\PhoneBook.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAAwDcAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-02T11:11:36.786Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\ITI\\Advanced C#\\ConsoleApp1\\ConsoleApp1\\Program.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\Program.cs",
+              "ToolTip": "D:\\ITI\\Advanced C#\\ConsoleApp1\\ConsoleApp1\\Program.cs",
+              "RelativeToolTip": "ConsoleApp1\\Program.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAwBYAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-02T11:10:53.385Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

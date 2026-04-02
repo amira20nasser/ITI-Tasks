@@ -4,10 +4,10 @@ namespace Lab3
 {
     internal class Program
     {
-        static Employee BinarySearchById(List<Employee> employees, int id)
+        static Employee BinarySearchById(Employee[] employees, int id)
         {
             int left = 0;
-            int right = employees.Count - 1;
+            int right = employees.Length - 1;
 
             while (left <= right)
             {
@@ -24,7 +24,7 @@ namespace Lab3
             return null;
         }
         
-        static Employee BinarySearchRecursive(List<Employee> employees, int id, int left, int right)
+        static Employee BinarySearchRecursive(Employee[] employees, int id, int left, int right)
         {
             if (left > right)
                 return null;
@@ -42,14 +42,16 @@ namespace Lab3
         static void Main(string[] args)
         {
             Console.WriteLine("Hello, World!");
-            List<Employee> employees = new List<Employee>()
+            Employee[] employees = new Employee []
             {
                 new Employee("Amira",5000,new DateTime(2022,5,1)),
                 new Employee("Nasser",6000,new DateTime(2020,3,1)),
                 new Employee("Sayed",7000,new DateTime(2021,7,1)),
             };
 
-            employees.Sort();
+            //employees.Sort();
+            SortAlgorithms<Employee>.SelectionSort(employees);
+            SortAlgorithms<Employee>.mergeSort(employees,0 , employees.Length-1);
 
             foreach (var e in employees)
             {
@@ -59,7 +61,7 @@ namespace Lab3
             Console.WriteLine("======================");
             Console.WriteLine(BinarySearchById(employees, 2));
             Console.WriteLine("======================");
-            Console.WriteLine(BinarySearchRecursive(employees, 2,0,employees.Count-1));
+            Console.WriteLine(BinarySearchRecursive(employees, 2,0,employees.Length-1));
             Console.WriteLine("======================");
 
             DoubleLinkedList<Employee> es = new DoubleLinkedList<Employee>();
