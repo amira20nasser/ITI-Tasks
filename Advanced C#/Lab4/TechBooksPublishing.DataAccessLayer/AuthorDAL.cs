@@ -10,7 +10,7 @@ using TechBooksPublishing.Models;
 {
     public class AuthorDAL
     {
-        private string connectionString = "Data Source=.;Initial Catalog=pubs;Integrated Security=True;TrustServerCertificate=True;";
+        private string connectionString = "Data Source=.;Database=pubs;Integrated Security=True;TrustServerCertificate=True;";
 
         private SqlConnection sqlConnection;
         public AuthorDAL() {
@@ -27,13 +27,13 @@ using TechBooksPublishing.Models;
                 adapter.Fill(dataTable);
                 return dataTable;
             }
-            catch (Exception ex)
+            catch
             {
                 throw;
             }
         }
 
-        public void AddAuthor(Author author)
+        public int AddAuthor(Author author)
         {
             try {
                 // 1. I will get the table into the memory
@@ -72,29 +72,30 @@ using TechBooksPublishing.Models;
 
                 table.Rows.Add(newRow);
 
-                adapter.Update(table);
+               return  adapter.Update(table);
             }
-            catch (Exception ex) {
+            catch  {
                 throw;
             }
         }
 
-        public void DeleteAuthorById(string Id)
+        public int DeleteAuthorById(string Id)
         {
             try
             {
-                string selectQuery = @"SELECT * FROM authors    
-                                    WHERE au_id = @Id;";
+                string selectQuery = @"SELECT * FROM authors WHERE au_id = @Id;";
                 SqlDataAdapter adapter = new SqlDataAdapter(selectQuery, sqlConnection);
-                string s = adapter.SelectCommand.CommandText;
-                Console.WriteLine($"Query of SELECT by Id ${s}");
+                //string s = adapter.SelectCommand.CommandText;
+                //Console.WriteLine($"Query of SELECT by Id {s}");
                 adapter.SelectCommand.Parameters.Add("@Id", SqlDbType.VarChar, 11).Value = Id;
 
-                string deletedQuery = @"DELETE FROM authors WHERE au_id = @Id;";
-                adapter.DeleteCommand.Connection = sqlConnection;
-                adapter.DeleteCommand.CommandText = deletedQuery;
-                adapter.DeleteCommand.Parameters.Add("@Id", SqlDbType.VarChar, 11).Value = Id;
-                adapter.DeleteCommand.Parameters.Add("@Id", SqlDbType.VarChar, 11, "au_id").SourceVersion = DataRowVersion.Original;
+                //string deletedQuery = @"DELETE FROM authors WHERE au_id = @Id;";
+                //adapter.DeleteCommand.Connection = sqlConnection;
+                //adapter.DeleteCommand.CommandText = deletedQuery;
+                //adapter.DeleteCommand.Parameters.Add("@Id", SqlDbType.VarChar, 11).Value = Id;
+                //adapter.DeleteCommand.Parameters.Add("@Id", SqlDbType.VarChar, 11, "au_id").SourceVersion = DataRowVersion.Original;
+
+                SqlCommandBuilder builder = new SqlCommandBuilder(adapter);
                 DataTable table = new DataTable();
                 adapter.Fill(table);
 
@@ -102,11 +103,11 @@ using TechBooksPublishing.Models;
                 {
                     table.Rows[0].Delete();
 
-                    adapter.Update(table);
+                    return adapter.Update(table);
                 }
+                return -1;
             }
-            catch (Exception ex) {
-                Console.WriteLine("The EROR"+ex.Message);
+            catch  {
                 throw;
             }
         }
