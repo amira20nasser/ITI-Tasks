@@ -1,0 +1,7 @@
+<Solution>
+  <Folder Name="/NewFolder1/" />
+  <Project Path="TechBooksPublishing.BusinessLogicLayer/TechBooksPublishing.BusinessLogicLayer.csproj" Id="4105cf6a-efa4-42cb-9b3b-27690e142eca" />
+  <Project Path="TechBooksPublishing.DataAccessLayer/TechBooksPublishing.DataAccessLayer.csproj" Id="ee155da7-00e3-47bc-983c-5c3b133b5566" />
+  <Project Path="TechBooksPublishing.Models/TechBooksPublishing.Models.csproj" Id="46450180-c932-4c2a-8e04-c278c8dbfc6d" />
+  <Project Path="TechPublishing/TechPublishing.csproj" />
+</Solution>

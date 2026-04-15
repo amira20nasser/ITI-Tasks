@@ -1,5 +1,0 @@
-<Solution>
-  <Project Path="Lab4/Lab4.csproj" />
-  <Project Path="TechBooksPublishing.DataAccessLayer/TechBooksPublishing.DataAccessLayer.csproj" Id="b73f5cc1-b173-4476-a5f2-55435b614fe8" />
-  <Project Path="TechBooksPublishing.Models/TechBooksPublishing.Models.csproj" Id="2d3bcb68-4d4e-4968-abf1-313491c98484" />
-</Solution>
