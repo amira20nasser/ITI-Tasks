@@ -8,14 +8,8 @@ namespace Lab01Linq
         {
             #region 1. 
             List<int> numbers = new List<int>() { 2, 4, 6, 7, 1, 4, 2, 9, 1 };
-            //numbers.Distinct().ToList().Sort();
-            //foreach(var i in numbers)
-            //{
-            //    Console.WriteLine(i);
-            //}
             var distinctNumbers = numbers.Distinct();
-            var sortedNumbers = distinctNumbers.ToList();
-            sortedNumbers.Sort();
+            var sortedNumbers = distinctNumbers.OrderBy(x => x);
             Console.WriteLine("========= Sorted List ==========");
             foreach (var item in sortedNumbers)
             {
@@ -89,19 +83,55 @@ namespace Lab01Linq
             #endregion
 
             #region 3
-            List<Student> students = new List<Student>(){
-                new Student(){ ID=1, FirstName="Ali", LastName="Mohammed",
-                    subjects=new Subject[]{ new Subject(){ Code=22,Name="EF"}, new Subject(){
-                    Code=33,Name="UML"}}},
-            new Student(){ ID=2, FirstName="Mona", LastName="Gala",
-            subjects=new Subject []{ new Subject(){ Code=22,Name="EF"}, new Subject (){
-            Code=34,Name="XML"},new Subject (){ Code=25, Name="JS"}}},             new
-            Student(){ ID=3, FirstName="Yara", LastName="Yousf", subjects=new Subject
-            []{ new Subject (){ Code=22,Name="EF"}, new Subject (){
-            Code=25,Name="JS"}}},
-                         new Student(){ ID=1, FirstName="Ali", LastName="Ali",
-            subjects=new Subject []{  new Subject (){ Code=33,Name="UML"}}},
+            List<Student> students = new List<Student>()
+            {
+                new Student()
+                {
+                    ID = 1,
+                    FirstName = "Ali",
+                    LastName = "Mohammed",
+                    subjects = new Subject[]
+                    {
+                        new Subject() { Code = 22, Name = "EF" },
+                        new Subject() { Code = 33, Name = "UML" }
+                    }
+                },
 
+                new Student()
+                {
+                    ID = 2,
+                    FirstName = "Mona",
+                    LastName = "Gala",
+                    subjects = new Subject[]
+                    {
+                        new Subject() { Code = 22, Name = "EF" },
+                        new Subject() { Code = 34, Name = "XML" },
+                        new Subject() { Code = 25, Name = "JS" }
+                    }
+                },
+
+                new Student()
+                {
+                    ID = 3,
+                    FirstName = "Yara",
+                    LastName = "Yousf",
+                    subjects = new Subject[]
+                    {
+                        new Subject() { Code = 22, Name = "EF" },
+                        new Subject() { Code = 25, Name = "JS" }
+                    }
+                },
+
+                new Student()
+                {
+                    ID = 1,
+                    FirstName = "Ali",
+                    LastName = "Ali",
+                    subjects = new Subject[]
+                    {
+                        new Subject() { Code = 33, Name = "UML" }
+                    }
+                }
             };
 
             Console.WriteLine("================ New List Method Chaining ===========");
@@ -116,15 +146,20 @@ namespace Lab01Linq
                 .ToList().ForEach(s => Console.WriteLine($"{s.FirstName} {s.LastName}"));
 
             Console.WriteLine("============== Select Many ===============");
-            students.SelectMany((s)=>  s.subjects , (student, subject) => new { StudentName = student.FirstName + " " + student.LastName, SubjectName=subject.Name })
+            students.SelectMany((s)=>  s.subjects , 
+                (student, subject) => new { StudentName = student.FirstName + " " + student.LastName, SubjectName=subject.Name })
                 .ToList().ForEach(e=> Console.WriteLine(e));
 
 
             Console.WriteLine("============== Group BY + Select Many ===============");
-            students.SelectMany((s) => s.subjects, (student, subject) => new { StudentName = student.FirstName + " " + student.LastName, SubjectName = subject.Name }).GroupBy(e => e.StudentName)
+            students.SelectMany(
+                (s) => s.subjects, 
+                (student, subject) => new { StudentName = student.FirstName + " " + student.LastName, SubjectName = subject.Name })
+                .GroupBy(e => e.StudentName)
                 .ToList().ForEach(group =>
                 {
                     // student Name
+                  
                     Console.WriteLine(group.Key);
                     foreach(var subject in group)
                     {

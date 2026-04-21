@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "D:\\ITI\\EntityFramework\\Lab01Linq\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{62C2EFAB-B0C4-4552-8D53-6CCAC0AB8FEC}|Lab01Linq\\Lab01Linq.csproj|d:\\iti\\entityframework\\lab01linq\\lab01linq\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{62C2EFAB-B0C4-4552-8D53-6CCAC0AB8FEC}|Lab01Linq\\Lab01Linq.csproj|solutionrelative:lab01linq\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{26D6556E-9735-A7FC-BF81-870051748DD7}|Lab01Linq\\Lab01Linq.csproj|d:\\iti\\entityframework\\lab01linq\\lab01linq\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26D6556E-9735-A7FC-BF81-870051748DD7}|Lab01Linq\\Lab01Linq.csproj|solutionrelative:lab01linq\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,11 +22,11 @@
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\ITI\\EntityFramework\\Lab01Linq\\Lab01Linq\\Program.cs",
               "RelativeDocumentMoniker": "Lab01Linq\\Program.cs",
-              "ToolTip": "D:\\ITI\\EntityFramework\\Lab01Linq\\Lab01Linq\\Program.cs",
-              "RelativeToolTip": "Lab01Linq\\Program.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAAwBgAAAA0AAAAAAAAAA==",
+              "ToolTip": "D:\\ITI\\EntityFramework\\Lab01Linq\\Lab01Linq\\Program.cs*",
+              "RelativeToolTip": "Lab01Linq\\Program.cs*",
+              "ViewState": "AgIAAAEAAAAAAAAAAAApwAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-21T11:24:52.608Z",
+              "WhenOpened": "2026-04-21T19:23:56.57Z",
               "EditorCaption": ""
             }
           ]
