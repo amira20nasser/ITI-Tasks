@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="AsyncAwaitWinForms/AsyncAwaitWinForms.csproj" Id="876d1628-18a1-4380-9c55-39b0608b9afd" />
+  <Project Path="DBWinFormsApp/DBWinFormsApp.csproj" />
+  <Project Path="Lab09/Lab09.csproj" />
+</Solution>

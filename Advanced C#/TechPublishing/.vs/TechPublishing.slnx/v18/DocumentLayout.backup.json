@@ -11,12 +11,12 @@
       "RelativeMoniker": "D:0:0:{4105CF6A-EFA4-42CB-9B3B-27690E142ECA}|TechBooksPublishing.BusinessLogicLayer\\TechBooksPublishing.BusinessLogicLayer.csproj|solutionrelative:techbookspublishing.businesslogiclayer\\autherbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EE155DA7-00E3-47BC-983C-5C3B133B5566}|TechBooksPublishing.DataAccessLayer\\TechBooksPublishing.DataAccessLayer.csproj|d:\\iti\\advanced c#\\techpublishing\\techbookspublishing.dataaccesslayer\\authordal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EE155DA7-00E3-47BC-983C-5C3B133B5566}|TechBooksPublishing.DataAccessLayer\\TechBooksPublishing.DataAccessLayer.csproj|solutionrelative:techbookspublishing.dataaccesslayer\\authordal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{46450180-C932-4C2A-8E04-C278C8DBFC6D}|TechBooksPublishing.Models\\TechBooksPublishing.Models.csproj|d:\\iti\\advanced c#\\techpublishing\\techbookspublishing.models\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{46450180-C932-4C2A-8E04-C278C8DBFC6D}|TechBooksPublishing.Models\\TechBooksPublishing.Models.csproj|solutionrelative:techbookspublishing.models\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE155DA7-00E3-47BC-983C-5C3B133B5566}|TechBooksPublishing.DataAccessLayer\\TechBooksPublishing.DataAccessLayer.csproj|d:\\iti\\advanced c#\\techpublishing\\techbookspublishing.dataaccesslayer\\authordal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE155DA7-00E3-47BC-983C-5C3B133B5566}|TechBooksPublishing.DataAccessLayer\\TechBooksPublishing.DataAccessLayer.csproj|solutionrelative:techbookspublishing.dataaccesslayer\\authordal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +30,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "AuthorDAL.cs",
               "DocumentMoniker": "D:\\ITI\\Advanced C#\\TechPublishing\\TechBooksPublishing.DataAccessLayer\\AuthorDAL.cs",
               "RelativeDocumentMoniker": "TechBooksPublishing.DataAccessLayer\\AuthorDAL.cs",
@@ -43,7 +43,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Author.cs",
               "DocumentMoniker": "D:\\ITI\\Advanced C#\\TechPublishing\\TechBooksPublishing.Models\\Author.cs",
               "RelativeDocumentMoniker": "TechBooksPublishing.Models\\Author.cs",
@@ -62,7 +62,7 @@
               "RelativeDocumentMoniker": "TechBooksPublishing.BusinessLogicLayer\\AutherBLL.cs",
               "ToolTip": "D:\\ITI\\Advanced C#\\TechPublishing\\TechBooksPublishing.BusinessLogicLayer\\AutherBLL.cs",
               "RelativeToolTip": "TechBooksPublishing.BusinessLogicLayer\\AutherBLL.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAIwFkAAAALAAAAAAAAAA==",
+              "ViewState": "AgIAADMAAAAAAAAAAAAYwEQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-10T07:42:51.133Z",
               "EditorCaption": ""
@@ -75,7 +75,7 @@
               "RelativeDocumentMoniker": "TechPublishing\\Program.cs",
               "ToolTip": "D:\\ITI\\Advanced C#\\TechPublishing\\TechPublishing\\Program.cs",
               "RelativeToolTip": "TechPublishing\\Program.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAADwvxUAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAHQAAAAAAAAAAADgv8kAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-10T07:38:05.041Z",
               "EditorCaption": ""
