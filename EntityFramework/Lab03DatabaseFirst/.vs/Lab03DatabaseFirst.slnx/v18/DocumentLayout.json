@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\ITI\\EntityFramework\\Lab03DatabaseFirst\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{24C27611-D881-C064-BFE1-36DFC18741AE}|Lab03DatabaseFirst\\Lab03DatabaseFirst.csproj|d:\\iti\\entityframework\\lab03databasefirst\\lab03databasefirst\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24C27611-D881-C064-BFE1-36DFC18741AE}|Lab03DatabaseFirst\\Lab03DatabaseFirst.csproj|solutionrelative:lab03databasefirst\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24C27611-D881-C064-BFE1-36DFC18741AE}|Lab03DatabaseFirst\\Lab03DatabaseFirst.csproj|d:\\iti\\entityframework\\lab03databasefirst\\lab03databasefirst\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24C27611-D881-C064-BFE1-36DFC18741AE}|Lab03DatabaseFirst\\Lab03DatabaseFirst.csproj|solutionrelative:lab03databasefirst\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\ITI\\EntityFramework\\Lab03DatabaseFirst\\Lab03DatabaseFirst\\Models\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Lab03DatabaseFirst\\Models\\AppDbContext.cs",
+              "ToolTip": "D:\\ITI\\EntityFramework\\Lab03DatabaseFirst\\Lab03DatabaseFirst\\Models\\AppDbContext.cs",
+              "RelativeToolTip": "Lab03DatabaseFirst\\Models\\AppDbContext.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAswEcAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T11:12:17.472Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\ITI\\EntityFramework\\Lab03DatabaseFirst\\Lab03DatabaseFirst\\Program.cs",
+              "RelativeDocumentMoniker": "Lab03DatabaseFirst\\Program.cs",
+              "ToolTip": "D:\\ITI\\EntityFramework\\Lab03DatabaseFirst\\Lab03DatabaseFirst\\Program.cs",
+              "RelativeToolTip": "Lab03DatabaseFirst\\Program.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAADwvw8AAABgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T10:47:14.301Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
