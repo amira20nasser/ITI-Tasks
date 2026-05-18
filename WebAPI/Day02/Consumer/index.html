@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>View</h1>
+
+    <div>
+        <label>Page:</label>
+        <input type="number" id="page" value="1" />
+
+        <label>Page Size:</label>
+        <input type="number" id="pageSize" value="5" />
+
+        <button onclick="loadStudents()">Load</button>
+    </div>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Address</th>
+                <th>Age</th>
+                <th>Department</th>
+                <th>Supervisor</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody id="studentsTable">
+        </tbody>
+    </table>
+
+    <script>
+        async function loadStudents() {
+            let page = document.getElementById("page").value;
+            let pageSize = document.getElementById("pageSize").value;
+
+            let url = `https://localhost:7154/api/student?page=${page}&pageSize=${pageSize}`;
+
+            try {
+                let response = await fetch(url);
+
+                if (!response.ok) {
+                    throw new Error("Failed to fetch data");
+                }
+
+                let result = await response.json();
+
+                let table = document.getElementById("studentsTable");
+                table.innerHTML = "";
+
+                // IMPORTANT: use result.data
+                result.data.forEach(item => {
+                    let row = `
+                    <tr>
+                        <td>${item.stId}</td>
+                        <td>${item.stFname}</td>
+                        <td>${item.stLname}</td>
+                        <td>${item.stAddress}</td>
+                        <td>${item.stAge}</td>
+                        <td>${item.deptName}</td>
+                        <td>${item.stSuperName}</td>
+                  
+                    </tr>
+                `;
+                    table.innerHTML += row;
+                });
+
+            } catch (error) {
+                console.error(error);
+            }
+        }
+
+        window.onload = loadStudents;
+    </script>
+</body>
+
+</html>
